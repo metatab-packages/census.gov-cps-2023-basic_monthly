@@ -1,5 +1,5 @@
 Declare,metatab-latest
-Title,
+Title,"Current Population Survey, 2023"
 Description,
 Identifier,e8bbdac3-e04a-4819-9c14-7208f20da384
 Name,census.gov-cps-2023-basic_monthly-1.1.1
@@ -14,16 +14,21 @@ Version.Major,1
 Version.Minor,1
 Version.Patch,1
 Created,2023-02-24T20:42:00
-Modified,2023-02-24T20:42:00
-""
+Modified,2023-02-24T21:00:55
+Giturl,https://github.com/metatab-packages/census.gov-cps-2023-basic_monthly.git
+
 Section,Contacts,Email,Organization,Url
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
-""
+
 Section,Documentation,Title,Description,
 Documentation,file:README.md,README,,
-""
+Documentation,https://www.census.gov/programs-surveys/cps/technical-documentation/subject-definitions.html,Subject Definitions,Descriptions of major concepts.
+Documentation,https://www.census.gov/programs-surveys/cps/technical-documentation/user-notes.html,User Notes,Various technical documentation.
 Section,References,Name,Description,
-""
+Reference,https://www2.census.gov/programs-surveys/cps/datasets/2023/basic/jan23pub.csv,jan23,January 2023
+Reference,https://www2.census.gov/programs-surveys/cps/datasets/2023/basic/2023_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt,data_dictionary,,
+Reference,https://www2.census.gov/programs-surveys/cps/datasets/2023/basic/jan23pub.csv,cps202301_source,,
 Section,Resources,Name,Description,
-""
+Datafile,notebooks/Extract.ipynb#df,cps202301
 Section,Schema,DataType,AltName,Description
+Table,cps2023,,,
