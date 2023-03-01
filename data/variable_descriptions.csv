@@ -1,381 +1,381 @@
 column,desc
-hrhhid, Household Identifier (Part 1) 
-hrmonth, Month of Interview 
-hryear4, Year of Interview 
-hurespli, Line Number of the Current Respondent 
-hufinal, Final Outcome Code Outcome codes between 001 and 020 are for CATI. All other outcome codes are for CAPI. 
-hetenure, Are your living quarters... (Read answer categories)? 
-hehousut, Type of housing unit 
-hetelhhd, Is there a telephone in this house/apartment? 
-hetelavl, Is there a telephone elsewhere on which people in this household can be contacted? 
-hephoneo, Is a telephone interview acceptable? 
-hefaminc," Family income (combined income of all family members during the last 12 months. Includes money from jobs, net income from business, farm or rent, pensions, dividends, interest, social security payments and any other money income received by family members who are 15 years of age or older.) Note: Caution should be used when using this variable since it has an allocation rate of approximately 20 percent. "
-hutypea, Type A noninterview reason 
-hutypb, Type B non-interview reason 
-hutypc, Type C non-interview reason 
-hwhhwgt, Household weight (4 implied decimal places) used for tallying household characteristics 
-hrintsta, Interview status 
-hrnumhou, Total number of persons living in the household (household members) 
-hrhtype, Household type 
-hrmis, Month-in-sample 
-huinttyp, Type of interview
-huprscnt, Number of actual and attempted personal contacts.
-hrhhid2, Household Identifier (Part 2).
-hwhhwtln, Line number (PULINENO) of the person whose PWSSWGT was donated as HWHHWGT for the household.
-hubus, Does anyone in this household have a business or a farm?
-hubusl1, Enter line number for HUBUS = 1.
-hubusl2, See BUSL1.
-hubusl3, See BUSL1.
-hubusl4, See BUSL1.
-gereg, Region.
-gediv, Division.
-gestfips, Federal Information Processing Standards (FIPS) State Code.
-gtcbsa, Specific Metropolitan CBSA Code (see Geographic Attachment).
-gtco, FIPS County Code.
-gtcbsast, Principal City/Balance Status.
-gtmetsta, Metropolitan Status.
-gtindvpc, Individual Principal City.
-gtcbsasz, Metropolitan Area (CBSA) Size.
-gtcsa, Consolidated Statistical Area (CSA) FIPS Code (see Geographic Attachment).
-perrp, Relationship to Reference Person. 
-prtage, Person's age. Note: This variable was labeled as PEAGE in prior versions of this documentation even though it contained the public use version of age that was top-coded and underwent further masking steps to protect the confidentiality of individuals in the sample.
-prtfage, Top code flag for age.
-pemaritl, Marital status.
-pespouse, Line number of spouse.
-pesex, Sex.
-peafever, Did you ever serve on active duty in the U.S. Armed Forces?
-peafnow, Are you now in the Armed Forces?
-peeduca, Highest level of school completed or degree received.
-ptdtrace, Race.
-prdthsp," Detailed Hispanic origin group, revised January 2014."
-puchinhh, Change in household composition.
-pulineno, Person's line number.
-prfamnum, Family number recode. 
-prfamrel, Family relationship recode. 
-prfamtyp, Family type recode. 
-pehspnon, Hispanic or non-Hispanic. 
-prmarsta, Marital status based on Armed Forces participation. 
-prpertyp, Type of person record recode. 
-penatvty, Country of birth. 
-pemntvty, Mother's country of birth. 
-pefntvty, Father's country of birth.
-prcitshp, Citizenship status
-prcitflg, Citizenship allocation flag
-prinusyr, Immigrant's year of entry
-puslfprx, Labor force information collected by self or proxy response
-pemlr, Monthly labor force recode
-puwk," Last week, did you do any work for (either) pay (or profit)?"
-pubus1," Last week, did you do any unpaid work in the family business or farm?"
-pubus2ot, Do you receive any payments or profits from the business?
-pubusck1, Check Item 1 filter for questions on unpaid work
-pubusck2, Check Item 2 skips owners of family businesses who did not work last week
-pubusck3, Check Item 3
-pubusck4, Check Item 4
-puretot," Retirement status (last month you were reported to be retired, are you still retired this month?)"
-pudis, Disability status (last month you were reported to have a disability.) Does your disability continue to prevent you from doing any kind of work for the next 6 months?
-peret1," Do you currently want a job, either full or part-time?"
-pudis1, Does your disability prevent you from accepting any kind of work during the next six months?
-pudis2, Do you have a disability that prevents you from accepting any kind of work during the next six months?
-puabsot, Last week did you have a job either full or part-time?
-pulay," Last week, were you on layoff from a job?"
-peabsrsn, What is the main reason you were absent from work last week?
-puhrck2, Check Item 2 skips persons responding yes to HRFTPT out of PT series.
-peabspdo, Are you being paid by your employer for any of the time off last week?
-pemjot, Do you have more than one job?
-pemjnum," Altogether, how many jobs do you have?"
-pehrusl1, How many hours per week do you usually work at your main job?
-pehrusl2, How many hours per week do you usually work at your other job(s)?
-pehrftpt, Do you usually work 35 hours or more per week?
-pehruslt, Sum of HRUSL1 and HRUSL2.
-pehrwant, Do you want to work a full-time work week of 35 hours or more per week?
-pehrrsn1, What is your main reason for working part-time? 
-pehrrsn2, What is the main reason you do not want to work full-time? 
-pehrrsn3, What is the main reason you worked less than 35 hours last week? 
-puhroff1," Last week, did you lose or take off any hours from your job, for any reason such as illness, slack work, vacation, or holiday?"
-puhroff2, How many hours did you take off? 
-puhrot1," Last week, did you work any overtime or extra hours (at your main job) that you do not usually work?"
-puhrot2, How many additional hours did you work? 
-pehract1," Last week, how many hours did you actually work at your job? "
-pehract2," Last week, how many hours did you actually work at your other job(s)? "
-pehractt, Sum of PEHRACT1 and PEHRACT2. 
-pehravl," Last week, could you have worked full-time if the hours had been available? "
-puhrck1, Check item 1 (HRACTT) 
-puhrck3, Check Item 3.
-puhrck4, Check Item 4.
-puhrck5, Check Item 5.
-puhrck6, Check Item 6.
-puhrck7, Check Item 7.
-puhrck12, Check Item 12. 
-pulaydt, Has your employer given you a date to return to work? 
-pulay6m, Have you been given any indication that you will be recalled to work within the next 6 months? 
-pelayavl, Could you have returned to work last week if you had been recalled? 
-pulayavr, Why is that? 
-pelaylk," Even though you are to be called back to work, have you been looking for work during the last 4 weeks? "
-pelaydur, Duration of layoff. 
-pelayfto, FT/PT status of job from which sample person was on layoff from. 
-pulayck1, Check Item 1. 
-pulayck2, Check Item 2 screen for dependent layoff. 
-pulayck3, Check Item 3 filter for dependent I & O. 
-pulk, Have you been doing anything to find work during the last 4 weeks? 
-pelkm1, What are all of the things you have done to find work during the last 4 weeks? (First method). 
-pulkm2, Anything else? (Second method).
-pulkm3, Same as PULKM2 (Third Method).
-pulkm4, Same as PULKM2 (Fourth Method).
-pulkm5, Same as PULKM2 (Fifth Method).
-pulkm6, Same as PULKM2 (Sixth Method).
-pulkdk1, You said you have been trying to find work. How did you go about looking? (First Method).
-pulkdk3, Same as PULKDK2 (Third Method).
-pulkdk4, Same as PULKDK2 (Fourth Method).
-pulkdk5, Same as PULKDK2 (Fifth Method).
-pulkdk6, Same as PULKDK2 (Sixth Method).
-pulkps1, Can you tell me more about what you did to search for work? (First Method).
-pulkps2, Anything else? (Second Method).
-pulkps3, Same as PULKPS2 (Third Method).
-pulkps4, Same as PULKPS2 (Fourth Method).
-pulkps5, Same as PULKPS2 (Fifth Method).
-pulkps6, Same as PULKPS2 (Sixth Method).
-pelkavl," Last week, could you have started a job if one had been offered?"
-pulkavr, Why is that? 
-pelkll1o," Before you started looking for work, what were you doing: working, going to school, or something else? "
-pelkll2o," Did you lose or quit that job, or was it a temporary job that ended? "
-pelklwo, When last worked?
-pelkdur, Duration of job seeking
-pelkfto, FT/PT status of jobseeker
-pedwwnto," Do you currently want a job, either full or part time?"
-pedwrsn, What is the main reason you were not looking for work during the last 4 weeks?
-pedwlko, Did you look for work at any time in the last 12 months?
-pedwwk, Did you actually work at a job or business during the last 12 months?
-pedw4wk, Did you do any of this work during the last 4 weeks?
-pedwlkwk, Since you left that job or business have you looked for work?
-pedwavl," Last week, could you have started a job if one had been offered?"
-pedwavr, Why is that?
-pudwck2, Screen for disabled
-pudwck3, Filter for retired
-pudwck4, Filter for passive job seekers
-pudwck5, Filter for passive job seekers
-pejhwko, Have you worked at a job or business at any time during the past 12 months?
-pujhdp1o, Did you do any of this work in the last 4 weeks?
-pejhrsn, What is the main reason you left your last job?
-pejhwant, Do you intend to look for work during the next 12 months?
-pujhck1, Filter for outgoing rotations
-pujhck2, Filter for persons going through the I and O series
-prabsrea, Reason not at work and pay status. 
-prcivlf, Civilian labor force. 
-prdisc, Discouraged worker recode. 
-premphrs, Reason not at work or hours at work.
-prempnot," MLR - Employed, unemployed, or NILF. "
-prexplf, Experienced labor force employment. 
-prftlf, Full time labor force. 
-prhrusl, Usual hours worked weekly. 
-prjobsea, Job search recode.
-prpthrs, At work 1 - 34 by hours at work. 
-prptrea, Detailed reason for part-time. 
-prunedur, Duration of unemployment for layoff and looking records. 
-pruntype, Reason for unemployment. 
-prwksch, Labor force by time worked or lost. 
-prwkstat, Full/part-time work status. 
-prwntjob, NILF recode - Want a job or other NILF. 
-pujhck3, Job history check item. 
-pujhck4, Screen for dependent NILF. 
-pujhck5, Screen for dependent NILF. 
-puiodp1," Last month, it was reported that you worked for (Employer's name). Do you still work for (Employer's name) (at your main job)?"
-puiodp2, Have the usual activities and duties of your job changed since last month?
-puiodp3, Last month you were reported as (a/an) (Occupation) and your usual activities were (description). Is this an accurate description of your current job?
-peio1cow, Individual class of worker code on first job. Note: A PEIO1COW code can be assigned even if an individual is not currently employed.
-puio1mfg," Is this business or organization mainly manufacturing, retail trade, wholesale trade, or something else?"
-padding, PXDIPGED 2 Allocation Flag 834 - 835
-peio2cow," Individual class of worker on second job. Note: For those self-employed unincorporated on their first job, this should have a response every month. For all others, this should only have a value in out-going rotations."
-puio2mfg," Is this business or organization mainly manufacturing, retail trade, wholesale trade, or something else?"
-puiock1, I & O Check Item 1 screen for dependent I and O
-puiock2, I & O Check Item 2 screen for previous months I and O cases
-puiock3, I & O Check Item 3 
-prioelg, Industry and Occupation Eligibility Flag 
-pragna, Agriculture / Non-Agriculture Industry 
-prcow1, Class of Worker Recode - Job 1 
-prcow2, Class of Worker Recode - Job 2 
-prcowpg, COW - Private or Government 
-prdtcow1, Detailed Class of Worker Recode - Job 1 
-prdtcow2, Detailed Class of Worker Recode - Job 2 
-prdtind1, Detailed Industry Recode - Job 1 
-prdtind2, Detailed Industry Recode - Job 2 
-prdtocc1, Detailed Occupation Recode - Job 1
-prdtocc2, Detailed Occupation Recode 
-premp, Employed persons (non-farm and non-private household) recode 
-prmjind1, Major Industry Recode - Job 1 
-prmjind2, Major Industry Recode - Job 2 
-prmjocc1, Major Occupation Recode - Job 1 
-prmjocc2, Major Occupation Recode - Job 2 
-prmjocgr, Major Occupation Categories 
-prnagpws," Non-Agriculture, Private Wage and Salary Workers Recode "
-prnagws, Non-Agriculture Wage and Salary Workers Recode 
-prsjms, Single/Multiple Jobholder Recode 
-prerelg, Earnings Eligibility Flag 
-peernuot," Do you usually receive overtime pay, tips, or commissions at your job? "
-peernper, Periodicity 
-peernrt, Even though you told me it is easier to report your earnings (periodicity); are you paid at an hourly rate on your (main/this) job? 
-peernhry, Hourly/Nonhourly Status  
-pternh1c," What is your hourly rate of pay on this job, excluding overtime pay, tips or commission? Dollar amount – 2 implied decimals "
-pternh2," (Excluding overtime pay, tips and commissions) What is your hourly rate of pay on your (main/this) job? Dollar amount – 2 implied decimals "
-pternh1o, Out variable for hourly rate of pay (2 implied decimals) 
-pternhly, Recode for hourly rate 
-pthr, Hourly Pay - Top Code
-peernhro, Usual hours. 
-pternwa, Weekly earnings recode.
-ptwk, Weekly earnings - top code.
-ptern, Calculated weekly overtime amount.
-ptern2, Calculated weekly overtime amount. 
-ptot, Weekly overtime amount - top code. 
-peernwkp, How many weeks a year do you get paid for? 
-peernlab," On this job, are you a member of a labor union or of an employee association similar to a union? "
-peerncov," On this job, are you covered by a union or employee association contract?"
-penlfjh, When did you last work at a job or business? 
-penlfact," What best describes your situation at this time? For example, are you disabled, ill, in school, taking care of house or family, or something else? "
-punlfck1, Not in labor force check item - 1. 
-punlfck2, Not in labor force check item - 2. 
-peschenr," Last week, were you enrolled in a high school, college, or university? "
-peschft, Are you enrolled in school as a full-time or part-time student? 
-peschlvl," Would that be high school, college, or university? "
-prnlfsch, NLF activity - in school or not in school. 
-pwfmwgt, Family weight (4 implied decimals) only used for tallying family characteristics. 
-pwlgwgt, Longitudinal weight (4 implied decimals) only found on adult records matched from month to month (used for gross flows analysis). 
-pworwgt," Outgoing rotation weight (4 implied decimals) used for tallying information collected only in outgoing rotations (i.e., earnings, 2nd job I & O, detailed NILF)."
-pwsswgt," Final weight (4 implied decimal places) used for most tabulations, controlled to independent estimates for 1) states; 2) origin, sex, and age; and 3) age, race, and sex."
-pwvetwgt," Veterans weight (4 implied decimals) used for tallying veteran's data only, controlled to estimates of veterans supplied by VA."
-prchld, Presence of own children < 18 years of age by selected age group.
-prnmchld, Number of own children < 18 years of age.
-pxpdemp1, Allocation flag.
-prwernal, Allocation flag weekly earnings recode (PTERNWA) allocation flag.
-prhernal, Allocation flag hourly earnings recode (PTERNHLY) allocation flag.
-hxtenure, Allocation flag. See HETENURE note.
-hxhousut, Allocation flag.
-hxtelhhd, Allocation flag.
-hxtelavl, Allocation flag.
-hxphoneo, Allocation flag.
-pxinusyr, Allocation flag.
-pxrrp, Allocation flag.
-pxparent, Allocation flag.
-pxage, Allocation flag.
-pxmaritl, Allocation flag.
-pxspouse, Allocation flag.
-pxsex, Allocation flag.
-pxafwhn1, Allocation flag.
-pxafnow, Allocation flag
-pxeduca, Allocation flag
-pxrace1, Allocation flag
-pxnatvty, Allocation flag
-pxmntvty, Allocation flag
-pxfntvty, Allocation flag
-pxnmemp1, Allocation flag
-pxhspnon, Allocation flag
-pxmlr, Allocation flag
-pxret1, Allocation flag
-pxabsrsn, Allocation flag
-pxabspdo, Allocation flag
-pxmjot, Allocation flag
-pxmjnum, Allocation flag
-pxhrusl1, Allocation flag
-pxhrusl2, Allocation flag
-pxhrftpt, Allocation flag
-pxhruslt, Allocation flag
-pxhrwant, Allocation flag 
-pxhrrsn1, Allocation flag
-pxhrrsn2, Allocation flag.
-pxhract1, Allocation flag.
-pxhract2, Allocation flag.
-pxhractt, Allocation flag.
-pxhrrsn3, Allocation flag.
-pxhravl,  Allocation flag.
-pxlayavl, Allocation flag.
-pxlaylk,  Allocation flag.
-pxlaydur, Allocation flag.
-pxlayfto, Allocation flag.
-pxlkm1,   Allocation flag.
-pxlkavl,  Allocation flag.
-pxlkll1o, Allocation flag.
-pxlkll2o, Allocation flag.
-pxlklwo,  Allocation flag.
-pxlkdur,  Allocation flag.
-pxlkfto,  Allocation flag.
-pxdwwnto, Allocation flag.
-pxdwrsn,  Allocation flag.
-pxdwlko,  Allocation flag.
-pxdwwk, Allocation Flag
-pxdw4wk, Allocation Flag
-pxdwlkwk, Allocation Flag
-pxdwavl, Allocation Flag
-pxdwavr, Allocation Flag
-pxjhwko, Allocation Flag
-pxjhrsn, Allocation Flag
-pxjhwant, Allocation Flag
-pxio1cow, Allocation Flag
-pxio1icd, Allocation Flag
-pxio1ocd, Allocation Flag
-pxio2cow, Allocation Flag
-pxio2icd, Allocation Flag
-pxio2ocd, Allocation Flag
-pxernuot, Allocation Flag
-pxernper, Allocation Flag
-pxernh1o, Allocation Flag
-pxernhro, Allocation Flag
-pxern, Allocation Flag
-pxpdemp2, Allocation Flag
-pxnmemp2, Allocation Flag PXERNWKP 2 Allocation Flag 791 to 792.
-pxernrt, Allocation Flag.
-pxernhry, Allocation Flag.
-pxernh2, Allocation Flag.
-pxernlab, Allocation Flag.
-pxerncov, Allocation Flag.
-pxnlfjh, Allocation Flag.
-pxnlfret, Allocation Flag.
-pxnlfact, Allocation Flag.
-pxschenr, Allocation Flag.
-pxschft, Allocation Flag.
-pxschlvl, Allocation Flag.
-qstnum, Unique household identifier. Valid only within any specific month.
-occurnum, Unique person identifier. Valid only within any specific month.
-pedipged, How did (they/he/she) get (their/his/her) high school diploma?
-pehgcomp, What was the highest grade of regular school (they/he/she) completed before receiving (their/his/her) GED?
-pecyc, How many years of college credit has (they/he/she) completed?
-pxhgcomp, Allocation Flag. 
-pxcyc, Allocation Flag Filler 6 840 to 845. 
-pwcmpwgt, Composited Final Weight. Used to create BLS's published labor force statistics (4 implied decimal places).
-peio1icd, Industry code for primary job.
-ptio1ocd, Occupation code for primary job.
-peio2icd, Industry code for second job.
-ptio2ocd, Occupation code for second job.
-primind1, Intermediate industry recode (Job 1).
-primind2, Intermediate industry recode (Job 2).
-peafwhn1, When did you serve?
-peafwhn2, When did you serve?
-peafwhn3, When did you serve?
-peafwhn4, When did you serve?
-pxafever, Allocation flag.
-pepar2," Line number of first parent (always the father, if present. Will be a female if the parents are same sex). "
-pepar1," Line number of second parent (always the mother, if present. Will be a male if the parents are same sex). "
-pepar2typ, Type of PEPAR2 edited universe: All - 1 No PEPAR1 present.
-pepar1typ, Type of PEPAR1 edited universe: All - 1 No PEPAR2 present. 
-pecohab, Line number of cohabiting partner. 
-pxpar2, Allocation flag. 
-pxpar1, Allocation flag. 
-pxpar2typ, Allocation flag. 
-pxpar1typ, Allocation flag.
-pxcohab, Allocation flag
-pedisear, Is this person deaf or does he/she have serious difficulty hearing?
-pediseye, Is this person blind or does he/she have serious difficulty seeing even when wearing glasses?
-pedisrem," Because of a physical, mental, or emotional condition, does he/she have serious difficulty concentrating, remembering, or making decisions?"
-pedisphy, Does he/she have serious difficulty walking or climbing stairs?
-pedisdrs, Does he/she have difficulty dressing or bathing?
-pedisout," Because of a physical, mental, or emotional condition, does he/she have difficulty doing errands alone such as visiting a doctor's office or shopping?"
-prdisflg, Does this person have any of these disability conditions?
-pxdisear, Allocation flag
-pxdiseye, Allocation flag
-pxdisrem, Allocation flag 
-pxdisphy, Allocation flag
-pxdisdrs, Allocation flag
-pxdisout, Allocation flag
-hxfaminc, Allocation flag
-prdasian, Detailed Asian race recode 
-pepdemp1, Does this person usually have any paid employees? See location 637 - 638 for the allocation flag. 
-ptnmemp1," Excluding all owners, how many paid employees does this person usually have? See location 681 - 682 for the allocation flag. "
-pepdemp2, Does this person usually have any paid employees? See location 787 - 788 for the allocation flag. 
-ptnmemp2," Excluding all owners, how many paid employees does this person usually have? See location 789 - 790 for the allocation flag."
+hrhhid,Household Identifier (Part 1)
+hrmonth,Month of Interview
+hryear4,Year of Interview
+hurespli,Line Number of the Current Respondent
+hufinal,Final Outcome Code Outcome codes between 001 and 020 are for CATI. All other outcome codes are for CAPI.
+hetenure,Are your living quarters... (Read answer categories)?
+hehousut,Type of housing unit
+hetelhhd,Is there a telephone in this house/apartment?
+hetelavl,Is there a telephone elsewhere on which people in this household can be contacted?
+hephoneo,Is a telephone interview acceptable?
+hefaminc,"Family income (combined income of all family members during the last 12 months. Includes money from jobs, net income from business, farm or rent, pensions, dividends, interest, social security payments and any other money income received by family members who are 15 years of age or older.) Note: Caution should be used when using this variable since it has an allocation rate of approximately 20 percent."
+hutypea,Type A noninterview reason
+hutypb,Type B non-interview reason
+hutypc,Type C non-interview reason
+hwhhwgt,Household weight (4 implied decimal places) used for tallying household characteristics
+hrintsta,Interview status
+hrnumhou,Total number of persons living in the household (household members)
+hrhtype,Household type
+hrmis,Month-in-sample
+huinttyp,Type of interview
+huprscnt,Number of actual and attempted personal contacts.
+hrhhid2,Household Identifier (Part 2).
+hwhhwtln,Line number (PULINENO) of the person whose PWSSWGT was donated as HWHHWGT for the household.
+hubus,Does anyone in this household have a business or a farm?
+hubusl1,Enter line number for HUBUS = 1.
+hubusl2,See BUSL1.
+hubusl3,See BUSL1.
+hubusl4,See BUSL1.
+gereg,Region.
+gediv,Division.
+gestfips,Federal Information Processing Standards (FIPS) State Code.
+gtcbsa,Specific Metropolitan CBSA Code (see Geographic Attachment).
+gtco,FIPS County Code.
+gtcbsast,Principal City/Balance Status.
+gtmetsta,Metropolitan Status.
+gtindvpc,Individual Principal City.
+gtcbsasz,Metropolitan Area (CBSA) Size.
+gtcsa,Consolidated Statistical Area (CSA) FIPS Code (see Geographic Attachment).
+perrp,Relationship to Reference Person.
+prtage,Person's age. Note: This variable was labeled as PEAGE in prior versions of this documentation even though it contained the public use version of age that was top-coded and underwent further masking steps to protect the confidentiality of individuals in the sample.
+prtfage,Top code flag for age.
+pemaritl,Marital status.
+pespouse,Line number of spouse.
+pesex,Sex.
+peafever,Did you ever serve on active duty in the U.S. Armed Forces?
+peafnow,Are you now in the Armed Forces?
+peeduca,Highest level of school completed or degree received.
+ptdtrace,Race.
+prdthsp,"Detailed Hispanic origin group, revised January 2014."
+puchinhh,Change in household composition.
+pulineno,Person's line number.
+prfamnum,Family number recode.
+prfamrel,Family relationship recode.
+prfamtyp,Family type recode.
+pehspnon,Hispanic or non-Hispanic.
+prmarsta,Marital status based on Armed Forces participation.
+prpertyp,Type of person record recode.
+penatvty,Country of birth.
+pemntvty,Mother's country of birth.
+pefntvty,Father's country of birth.
+prcitshp,Citizenship status
+prcitflg,Citizenship allocation flag
+prinusyr,Immigrant's year of entry
+puslfprx,Labor force information collected by self or proxy response
+pemlr,Monthly labor force recode
+puwk,"Last week, did you do any work for (either) pay (or profit)?"
+pubus1,"Last week, did you do any unpaid work in the family business or farm?"
+pubus2ot,Do you receive any payments or profits from the business?
+pubusck1,Check Item 1 filter for questions on unpaid work
+pubusck2,Check Item 2 skips owners of family businesses who did not work last week
+pubusck3,Check Item 3
+pubusck4,Check Item 4
+puretot,"Retirement status (last month you were reported to be retired, are you still retired this month?)"
+pudis,Disability status (last month you were reported to have a disability.) Does your disability continue to prevent you from doing any kind of work for the next 6 months?
+peret1,"Do you currently want a job, either full or part-time?"
+pudis1,Does your disability prevent you from accepting any kind of work during the next six months?
+pudis2,Do you have a disability that prevents you from accepting any kind of work during the next six months?
+puabsot,Last week did you have a job either full or part-time?
+pulay,"Last week, were you on layoff from a job?"
+peabsrsn,What is the main reason you were absent from work last week?
+puhrck2,Check Item 2 skips persons responding yes to HRFTPT out of PT series.
+peabspdo,Are you being paid by your employer for any of the time off last week?
+pemjot,Do you have more than one job?
+pemjnum,"Altogether, how many jobs do you have?"
+pehrusl1,How many hours per week do you usually work at your main job?
+pehrusl2,How many hours per week do you usually work at your other job(s)?
+pehrftpt,Do you usually work 35 hours or more per week?
+pehruslt,Sum of HRUSL1 and HRUSL2.
+pehrwant,Do you want to work a full-time work week of 35 hours or more per week?
+pehrrsn1,What is your main reason for working part-time?
+pehrrsn2,What is the main reason you do not want to work full-time?
+pehrrsn3,What is the main reason you worked less than 35 hours last week?
+puhroff1,"Last week, did you lose or take off any hours from your job, for any reason such as illness, slack work, vacation, or holiday?"
+puhroff2,How many hours did you take off?
+puhrot1,"Last week, did you work any overtime or extra hours (at your main job) that you do not usually work?"
+puhrot2,How many additional hours did you work?
+pehract1,"Last week, how many hours did you actually work at your job?"
+pehract2,"Last week, how many hours did you actually work at your other job(s)?"
+pehractt,Sum of PEHRACT1 and PEHRACT2.
+pehravl,"Last week, could you have worked full-time if the hours had been available?"
+puhrck1,Check item 1 (HRACTT)
+puhrck3,Check Item 3.
+puhrck4,Check Item 4.
+puhrck5,Check Item 5.
+puhrck6,Check Item 6.
+puhrck7,Check Item 7.
+puhrck12,Check Item 12.
+pulaydt,Has your employer given you a date to return to work?
+pulay6m,Have you been given any indication that you will be recalled to work within the next 6 months?
+pelayavl,Could you have returned to work last week if you had been recalled?
+pulayavr,Why is that?
+pelaylk,"Even though you are to be called back to work, have you been looking for work during the last 4 weeks?"
+pelaydur,Duration of layoff.
+pelayfto,FT/PT status of job from which sample person was on layoff from.
+pulayck1,Check Item 1.
+pulayck2,Check Item 2 screen for dependent layoff.
+pulayck3,Check Item 3 filter for dependent I & O.
+pulk,Have you been doing anything to find work during the last 4 weeks?
+pelkm1,What are all of the things you have done to find work during the last 4 weeks? (First method).
+pulkm2,Anything else? (Second method).
+pulkm3,Same as PULKM2 (Third Method).
+pulkm4,Same as PULKM2 (Fourth Method).
+pulkm5,Same as PULKM2 (Fifth Method).
+pulkm6,Same as PULKM2 (Sixth Method).
+pulkdk1,You said you have been trying to find work. How did you go about looking? (First Method).
+pulkdk3,Same as PULKDK2 (Third Method).
+pulkdk4,Same as PULKDK2 (Fourth Method).
+pulkdk5,Same as PULKDK2 (Fifth Method).
+pulkdk6,Same as PULKDK2 (Sixth Method).
+pulkps1,Can you tell me more about what you did to search for work? (First Method).
+pulkps2,Anything else? (Second Method).
+pulkps3,Same as PULKPS2 (Third Method).
+pulkps4,Same as PULKPS2 (Fourth Method).
+pulkps5,Same as PULKPS2 (Fifth Method).
+pulkps6,Same as PULKPS2 (Sixth Method).
+pelkavl,"Last week, could you have started a job if one had been offered?"
+pulkavr,Why is that?
+pelkll1o,"Before you started looking for work, what were you doing: working, going to school, or something else?"
+pelkll2o,"Did you lose or quit that job, or was it a temporary job that ended?"
+pelklwo,When last worked?
+pelkdur,Duration of job seeking
+pelkfto,FT/PT status of jobseeker
+pedwwnto,"Do you currently want a job, either full or part time?"
+pedwrsn,What is the main reason you were not looking for work during the last 4 weeks?
+pedwlko,Did you look for work at any time in the last 12 months?
+pedwwk,Did you actually work at a job or business during the last 12 months?
+pedw4wk,Did you do any of this work during the last 4 weeks?
+pedwlkwk,Since you left that job or business have you looked for work?
+pedwavl,"Last week, could you have started a job if one had been offered?"
+pedwavr,Why is that?
+pudwck2,Screen for disabled
+pudwck3,Filter for retired
+pudwck4,Filter for passive job seekers
+pudwck5,Filter for passive job seekers
+pejhwko,Have you worked at a job or business at any time during the past 12 months?
+pujhdp1o,Did you do any of this work in the last 4 weeks?
+pejhrsn,What is the main reason you left your last job?
+pejhwant,Do you intend to look for work during the next 12 months?
+pujhck1,Filter for outgoing rotations
+pujhck2,Filter for persons going through the I and O series
+prabsrea,Reason not at work and pay status.
+prcivlf,Civilian labor force.
+prdisc,Discouraged worker recode.
+premphrs,Reason not at work or hours at work.
+prempnot,"MLR - Employed, unemployed, or NILF."
+prexplf,Experienced labor force employment.
+prftlf,Full time labor force.
+prhrusl,Usual hours worked weekly.
+prjobsea,Job search recode.
+prpthrs,At work 1 - 34 by hours at work.
+prptrea,Detailed reason for part-time.
+prunedur,Duration of unemployment for layoff and looking records.
+pruntype,Reason for unemployment.
+prwksch,Labor force by time worked or lost.
+prwkstat,Full/part-time work status.
+prwntjob,NILF recode - Want a job or other NILF.
+pujhck3,Job history check item.
+pujhck4,Screen for dependent NILF.
+pujhck5,Screen for dependent NILF.
+puiodp1,"Last month, it was reported that you worked for (Employer's name). Do you still work for (Employer's name) (at your main job)?"
+puiodp2,Have the usual activities and duties of your job changed since last month?
+puiodp3,Last month you were reported as (a/an) (Occupation) and your usual activities were (description). Is this an accurate description of your current job?
+peio1cow,Individual class of worker code on first job. Note: A PEIO1COW code can be assigned even if an individual is not currently employed.
+puio1mfg,"Is this business or organization mainly manufacturing, retail trade, wholesale trade, or something else?"
+padding,PXDIPGED 2 Allocation Flag 834 - 835
+peio2cow,"Individual class of worker on second job. Note: For those self-employed unincorporated on their first job, this should have a response every month. For all others, this should only have a value in out-going rotations."
+puio2mfg,"Is this business or organization mainly manufacturing, retail trade, wholesale trade, or something else?"
+puiock1,I & O Check Item 1 screen for dependent I and O
+puiock2,I & O Check Item 2 screen for previous months I and O cases
+puiock3,I & O Check Item 3
+prioelg,Industry and Occupation Eligibility Flag
+pragna,Agriculture / Non-Agriculture Industry
+prcow1,Class of Worker Recode - Job 1
+prcow2,Class of Worker Recode - Job 2
+prcowpg,COW - Private or Government
+prdtcow1,Detailed Class of Worker Recode - Job 1
+prdtcow2,Detailed Class of Worker Recode - Job 2
+prdtind1,Detailed Industry Recode - Job 1
+prdtind2,Detailed Industry Recode - Job 2
+prdtocc1,Detailed Occupation Recode - Job 1
+prdtocc2,Detailed Occupation Recode
+premp,Employed persons (non-farm and non-private household) recode
+prmjind1,Major Industry Recode - Job 1
+prmjind2,Major Industry Recode - Job 2
+prmjocc1,Major Occupation Recode - Job 1
+prmjocc2,Major Occupation Recode - Job 2
+prmjocgr,Major Occupation Categories
+prnagpws,"Non-Agriculture, Private Wage and Salary Workers Recode"
+prnagws,Non-Agriculture Wage and Salary Workers Recode
+prsjms,Single/Multiple Jobholder Recode
+prerelg,Earnings Eligibility Flag
+peernuot,"Do you usually receive overtime pay, tips, or commissions at your job?"
+peernper,Periodicity
+peernrt,Even though you told me it is easier to report your earnings (periodicity); are you paid at an hourly rate on your (main/this) job?
+peernhry,Hourly/Nonhourly Status
+pternh1c,"What is your hourly rate of pay on this job, excluding overtime pay, tips or commission? Dollar amount – 2 implied decimals"
+pternh2,"(Excluding overtime pay, tips and commissions) What is your hourly rate of pay on your (main/this) job? Dollar amount – 2 implied decimals"
+pternh1o,Out variable for hourly rate of pay (2 implied decimals)
+pternhly,Recode for hourly rate
+pthr,Hourly Pay - Top Code
+peernhro,Usual hours.
+pternwa,Weekly earnings recode.
+ptwk,Weekly earnings - top code.
+ptern,Calculated weekly overtime amount.
+ptern2,Calculated weekly overtime amount.
+ptot,Weekly overtime amount - top code.
+peernwkp,How many weeks a year do you get paid for?
+peernlab,"On this job, are you a member of a labor union or of an employee association similar to a union?"
+peerncov,"On this job, are you covered by a union or employee association contract?"
+penlfjh,When did you last work at a job or business?
+penlfact,"What best describes your situation at this time? For example, are you disabled, ill, in school, taking care of house or family, or something else?"
+punlfck1,Not in labor force check item - 1.
+punlfck2,Not in labor force check item - 2.
+peschenr,"Last week, were you enrolled in a high school, college, or university?"
+peschft,Are you enrolled in school as a full-time or part-time student?
+peschlvl,"Would that be high school, college, or university?"
+prnlfsch,NLF activity - in school or not in school.
+pwfmwgt,Family weight (4 implied decimals) only used for tallying family characteristics.
+pwlgwgt,Longitudinal weight (4 implied decimals) only found on adult records matched from month to month (used for gross flows analysis).
+pworwgt,"Outgoing rotation weight (4 implied decimals) used for tallying information collected only in outgoing rotations (i.e., earnings, 2nd job I & O, detailed NILF)."
+pwsswgt,"Final weight (4 implied decimal places) used for most tabulations, controlled to independent estimates for 1) states; 2) origin, sex, and age; and 3) age, race, and sex."
+pwvetwgt,"Veterans weight (4 implied decimals) used for tallying veteran's data only, controlled to estimates of veterans supplied by VA."
+prchld,Presence of own children < 18 years of age by selected age group.
+prnmchld,Number of own children < 18 years of age.
+pxpdemp1,Allocation flag.
+prwernal,Allocation flag weekly earnings recode (PTERNWA) allocation flag.
+prhernal,Allocation flag hourly earnings recode (PTERNHLY) allocation flag.
+hxtenure,Allocation flag. See HETENURE note.
+hxhousut,Allocation flag.
+hxtelhhd,Allocation flag.
+hxtelavl,Allocation flag.
+hxphoneo,Allocation flag.
+pxinusyr,Allocation flag.
+pxrrp,Allocation flag.
+pxparent,Allocation flag.
+pxage,Allocation flag.
+pxmaritl,Allocation flag.
+pxspouse,Allocation flag.
+pxsex,Allocation flag.
+pxafwhn1,Allocation flag.
+pxafnow,Allocation flag
+pxeduca,Allocation flag
+pxrace1,Allocation flag
+pxnatvty,Allocation flag
+pxmntvty,Allocation flag
+pxfntvty,Allocation flag
+pxnmemp1,Allocation flag
+pxhspnon,Allocation flag
+pxmlr,Allocation flag
+pxret1,Allocation flag
+pxabsrsn,Allocation flag
+pxabspdo,Allocation flag
+pxmjot,Allocation flag
+pxmjnum,Allocation flag
+pxhrusl1,Allocation flag
+pxhrusl2,Allocation flag
+pxhrftpt,Allocation flag
+pxhruslt,Allocation flag
+pxhrwant,Allocation flag
+pxhrrsn1,Allocation flag
+pxhrrsn2,Allocation flag.
+pxhract1,Allocation flag.
+pxhract2,Allocation flag.
+pxhractt,Allocation flag.
+pxhrrsn3,Allocation flag.
+pxhravl,Allocation flag.
+pxlayavl,Allocation flag.
+pxlaylk,Allocation flag.
+pxlaydur,Allocation flag.
+pxlayfto,Allocation flag.
+pxlkm1,Allocation flag.
+pxlkavl,Allocation flag.
+pxlkll1o,Allocation flag.
+pxlkll2o,Allocation flag.
+pxlklwo,Allocation flag.
+pxlkdur,Allocation flag.
+pxlkfto,Allocation flag.
+pxdwwnto,Allocation flag.
+pxdwrsn,Allocation flag.
+pxdwlko,Allocation flag.
+pxdwwk,Allocation Flag
+pxdw4wk,Allocation Flag
+pxdwlkwk,Allocation Flag
+pxdwavl,Allocation Flag
+pxdwavr,Allocation Flag
+pxjhwko,Allocation Flag
+pxjhrsn,Allocation Flag
+pxjhwant,Allocation Flag
+pxio1cow,Allocation Flag
+pxio1icd,Allocation Flag
+pxio1ocd,Allocation Flag
+pxio2cow,Allocation Flag
+pxio2icd,Allocation Flag
+pxio2ocd,Allocation Flag
+pxernuot,Allocation Flag
+pxernper,Allocation Flag
+pxernh1o,Allocation Flag
+pxernhro,Allocation Flag
+pxern,Allocation Flag
+pxpdemp2,Allocation Flag
+pxnmemp2,Allocation Flag PXERNWKP 2 Allocation Flag 791 to 792.
+pxernrt,Allocation Flag.
+pxernhry,Allocation Flag.
+pxernh2,Allocation Flag.
+pxernlab,Allocation Flag.
+pxerncov,Allocation Flag.
+pxnlfjh,Allocation Flag.
+pxnlfret,Allocation Flag.
+pxnlfact,Allocation Flag.
+pxschenr,Allocation Flag.
+pxschft,Allocation Flag.
+pxschlvl,Allocation Flag.
+qstnum,Unique household identifier. Valid only within any specific month.
+occurnum,Unique person identifier. Valid only within any specific month.
+pedipged,How did (they/he/she) get (their/his/her) high school diploma?
+pehgcomp,What was the highest grade of regular school (they/he/she) completed before receiving (their/his/her) GED?
+pecyc,How many years of college credit has (they/he/she) completed?
+pxhgcomp,Allocation Flag.
+pxcyc,Allocation Flag Filler 6 840 to 845.
+pwcmpwgt,Composited Final Weight. Used to create BLS's published labor force statistics (4 implied decimal places).
+peio1icd,Industry code for primary job.
+ptio1ocd,Occupation code for primary job.
+peio2icd,Industry code for second job.
+ptio2ocd,Occupation code for second job.
+primind1,Intermediate industry recode (Job 1).
+primind2,Intermediate industry recode (Job 2).
+peafwhn1,When did you serve?
+peafwhn2,When did you serve?
+peafwhn3,When did you serve?
+peafwhn4,When did you serve?
+pxafever,Allocation flag.
+pepar2,"Line number of first parent (always the father, if present. Will be a female if the parents are same sex)."
+pepar1,"Line number of second parent (always the mother, if present. Will be a male if the parents are same sex)."
+pepar2typ,Type of PEPAR2 edited universe: All - 1 No PEPAR1 present.
+pepar1typ,Type of PEPAR1 edited universe: All - 1 No PEPAR2 present.
+pecohab,Line number of cohabiting partner.
+pxpar2,Allocation flag.
+pxpar1,Allocation flag.
+pxpar2typ,Allocation flag.
+pxpar1typ,Allocation flag.
+pxcohab,Allocation flag
+pedisear,Is this person deaf or does he/she have serious difficulty hearing?
+pediseye,Is this person blind or does he/she have serious difficulty seeing even when wearing glasses?
+pedisrem,"Because of a physical, mental, or emotional condition, does he/she have serious difficulty concentrating, remembering, or making decisions?"
+pedisphy,Does he/she have serious difficulty walking or climbing stairs?
+pedisdrs,Does he/she have difficulty dressing or bathing?
+pedisout,"Because of a physical, mental, or emotional condition, does he/she have difficulty doing errands alone such as visiting a doctor's office or shopping?"
+prdisflg,Does this person have any of these disability conditions?
+pxdisear,Allocation flag
+pxdiseye,Allocation flag
+pxdisrem,Allocation flag
+pxdisphy,Allocation flag
+pxdisdrs,Allocation flag
+pxdisout,Allocation flag
+hxfaminc,Allocation flag
+prdasian,Detailed Asian race recode
+pepdemp1,Does this person usually have any paid employees? See location 637 - 638 for the allocation flag.
+ptnmemp1,"Excluding all owners, how many paid employees does this person usually have? See location 681 - 682 for the allocation flag."
+pepdemp2,Does this person usually have any paid employees? See location 787 - 788 for the allocation flag.
+ptnmemp2,"Excluding all owners, how many paid employees does this person usually have? See location 789 - 790 for the allocation flag."
